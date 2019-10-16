@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Toast.makeText(this ,"This is Branch2", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"This is Branch 1",Toast.LENGTH_SHORT).show()
 
     }
 }
